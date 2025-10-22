@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Scout Raider MAN 2 Gresik</title>
+    <meta name="description" content="Hubungi kami untuk informasi lebih lanjut tentang Pramuka Indonesia.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img id="logo" src="scr 2.jpg" alt="Logo Pramuka Indonesia">
+            <h1>Scout Raider MAN 2 Gresik</h1>
+        </div>
+    </header>
+
+    <nav aria-label="Navigasi utama">
+        <div class="nav-container">
+            <a href="index.html"><i class="bi bi-house"></i> Beranda</a>
+            <a href="tentang.html"><i class="bi bi-info"></i> Tentang Pramuka</a>
+            <a href="struktur.html"><i class="bi bi-diagram-3"></i> Struktur</a>
+            <a href="berita.html"><i class="bi bi-newspaper"></i> Berita & Kegiatan</a>
+            <a href="prestasi.html"><i class="bi bi-award"></i> Prestasi</a>
+            <a href="kontak.html" class="active" aria-current="page"><i class="bi bi-telephone"></i> Kontak</a>
+        </div>
+        <button class="hamburger" onclick="toggleMenu()"><i class="bi bi-list"></i></button>
+    </nav>
+
+    <main>
+        <section aria-labelledby="kontak-title">
+            <h2 id="kontak-title">Hubungi Kami</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Informasi Kontak</h3>
+                    <p><i class="bi bi-envelope"></i> Email: <a
+                            href="mailto:pramukam2g@gmail.com">pramukam2g@gmail.com</a></p>
+                    <p><i class="bi bi-instagram"></i> Instagram: <a
+                            href="https://www.instagram.com/pramuka_m2g?igsh=MXhyM2IxOTlzd3JleQ=="
+                            target="_blank">@pramuka_m2g</a></p>
+                    <p><i class="bi bi-tiktok"></i> TikTok: <a
+                            href="https://www.tiktok.com/@pramuka_m2g?_t=ZS-90jJWgbzFsF&_r=1"
+                            target="_blank">@pramuka_m2g</a></p>
+                    <p><i class="bi bi-telephone"></i> Telepon: <a href="tel:+6282332128184">+62 823-3212-8184</a></p>
+                </div>
+                <div class="card">
+                    <h3>Lokasi Kami</h3>
+                    <p><i class="bi bi-geo-alt"></i> Alamat: Jl. Raya Metatu No. 7 Benjeng Gresik</p>
+                    <p>Kami berlokasi di MAN 2 Gresik, sebuah institusi pendidikan Islam terpadu yang terkenal di
+                        wilayah Gresik.</p>
+                    <a href="https://maps.app.goo.gl/j292MR4baxb7mYhe6" target="_blank" class="cta-button">
+                        <i class="bi bi-geo-alt"></i> Lihat di Google Maps
+                    </a>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1683522979747!2d112.49682971407842!3d-7.22162977291465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7802405d4e86eb%3A0xb3bcc37a269106c6!2sMAN+2+Gresik!5e0!3m2!1sid!2sid!4v1506657963500&maptype=roadmap&style=feature:all|element:labels|visibility:off&style=feature:landscape|element:geometry|color:0xffffff&style=feature:road|element:geometry|color:0x000000&style=feature:water|element:geometry|color:0x000000&style=feature:poi|element:geometry|color:0x000000&style=feature:transit|element:geometry|color:0x000000&style=feature:administrative|element:geometry|color:0x000000"
+                        class="map-image" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal untuk gambar (hidden) -->
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+        </div>
+    </main>
+
+    <footer aria-label="Footer">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/@pramuka_m2g" target="_blank"
+                aria-label="Kunjungi Instagram Scout Raider MAN 2 Gresik">
+                <i class="bi bi-instagram social-icon"></i>
+            </a>
+            <a href="https://www.tiktok.com/@pramuka_m2g" target="_blank"
+                aria-label="Kunjungi TikTok Scout Raider MAN 2 Gresik">
+                <i class="bi bi-tiktok social-icon"></i>
+            </a>
+            <a href="https://www.youtube.com/@scoutraider4724" target="_blank"
+                aria-label="Kunjungi YouTube Scout Raider MAN 2 Gresik">
+                <i class="bi bi-youtube social-icon"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Scout Raider M2G. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
